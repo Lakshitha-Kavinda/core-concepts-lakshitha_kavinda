@@ -1,0 +1,53 @@
+[1.853s] Invoking command in '/home/lakshitha/ros2_ws/src/ros2_assignment': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakshitha/ros2_ws/build/ros2_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_assignment build --build-base /home/lakshitha/ros2_ws/build/ros2_assignment/build install --record /home/lakshitha/ros2_ws/build/ros2_assignment/install.log --single-version-externally-managed install_data
+[2.452s] running egg_info
+[2.453s] creating ../../build/ros2_assignment/ros2_assignment.egg-info
+[2.496s] writing ../../build/ros2_assignment/ros2_assignment.egg-info/PKG-INFO
+[2.497s] writing dependency_links to ../../build/ros2_assignment/ros2_assignment.egg-info/dependency_links.txt
+[2.497s] writing entry points to ../../build/ros2_assignment/ros2_assignment.egg-info/entry_points.txt
+[2.497s] writing requirements to ../../build/ros2_assignment/ros2_assignment.egg-info/requires.txt
+[2.497s] writing top-level names to ../../build/ros2_assignment/ros2_assignment.egg-info/top_level.txt
+[2.498s] writing manifest file '../../build/ros2_assignment/ros2_assignment.egg-info/SOURCES.txt'
+[2.588s] reading manifest file '../../build/ros2_assignment/ros2_assignment.egg-info/SOURCES.txt'
+[2.589s] writing manifest file '../../build/ros2_assignment/ros2_assignment.egg-info/SOURCES.txt'
+[2.589s] running build
+[2.589s] running build_py
+[2.589s] creating /home/lakshitha/ros2_ws/build/ros2_assignment/build
+[2.590s] creating /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib
+[2.590s] creating /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.590s] copying ros2_assignment/twist_from_database.py -> /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.590s] copying ros2_assignment/params_setter.py -> /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.591s] copying ros2_assignment/__init__.py -> /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.591s] copying ros2_assignment/zero_twist.py -> /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.591s] copying ros2_assignment/pose_re_pub.py -> /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.591s] copying ros2_assignment/param_reader.py -> /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment
+[2.591s] running install
+[2.604s] running install_lib
+[2.649s] creating /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.649s] copying /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment/twist_from_database.py -> /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.649s] copying /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment/params_setter.py -> /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.650s] copying /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment/__init__.py -> /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.650s] copying /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment/zero_twist.py -> /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.650s] copying /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment/pose_re_pub.py -> /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.650s] copying /home/lakshitha/ros2_ws/build/ros2_assignment/build/lib/ros2_assignment/param_reader.py -> /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment
+[2.651s] byte-compiling /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment/twist_from_database.py to twist_from_database.cpython-312.pyc
+[2.652s] byte-compiling /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment/params_setter.py to params_setter.cpython-312.pyc
+[2.653s] byte-compiling /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment/__init__.py to __init__.cpython-312.pyc
+[2.653s] byte-compiling /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment/zero_twist.py to zero_twist.cpython-312.pyc
+[2.654s] byte-compiling /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment/pose_re_pub.py to pose_re_pub.cpython-312.pyc
+[2.655s] byte-compiling /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment/param_reader.py to param_reader.cpython-312.pyc
+[2.656s] running install_data
+[2.656s] creating /home/lakshitha/ros2_ws/install/ros2_assignment/share/ament_index
+[2.656s] creating /home/lakshitha/ros2_ws/install/ros2_assignment/share/ament_index/resource_index
+[2.656s] creating /home/lakshitha/ros2_ws/install/ros2_assignment/share/ament_index/resource_index/packages
+[2.656s] copying resource/ros2_assignment -> /home/lakshitha/ros2_ws/install/ros2_assignment/share/ament_index/resource_index/packages
+[2.657s] copying package.xml -> /home/lakshitha/ros2_ws/install/ros2_assignment/share/ros2_assignment
+[2.657s] running install_egg_info
+[2.705s] Copying ../../build/ros2_assignment/ros2_assignment.egg-info to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment-0.0.0-py3.12.egg-info
+[2.706s] running install_scripts
+[2.989s] Installing param_reader script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.990s] Installing params_setter script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.990s] Installing pose_re_pub script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.990s] Installing twist_from_database script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.990s] Installing zero_twist script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.991s] writing list of installed files to '/home/lakshitha/ros2_ws/build/ros2_assignment/install.log'
+[3.043s] Invoked command in '/home/lakshitha/ros2_ws/src/ros2_assignment' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakshitha/ros2_ws/build/ros2_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_assignment build --build-base /home/lakshitha/ros2_ws/build/ros2_assignment/build install --record /home/lakshitha/ros2_ws/build/ros2_assignment/install.log --single-version-externally-managed install_data

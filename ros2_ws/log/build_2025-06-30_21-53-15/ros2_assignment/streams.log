@@ -1,0 +1,25 @@
+[1.682s] Invoking command in '/home/lakshitha/ros2_ws/src/ros2_assignment': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakshitha/ros2_ws/build/ros2_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_assignment build --build-base /home/lakshitha/ros2_ws/build/ros2_assignment/build install --record /home/lakshitha/ros2_ws/build/ros2_assignment/install.log --single-version-externally-managed install_data
+[2.257s] running egg_info
+[2.302s] writing ../../build/ros2_assignment/ros2_assignment.egg-info/PKG-INFO
+[2.302s] writing dependency_links to ../../build/ros2_assignment/ros2_assignment.egg-info/dependency_links.txt
+[2.302s] writing entry points to ../../build/ros2_assignment/ros2_assignment.egg-info/entry_points.txt
+[2.303s] writing requirements to ../../build/ros2_assignment/ros2_assignment.egg-info/requires.txt
+[2.303s] writing top-level names to ../../build/ros2_assignment/ros2_assignment.egg-info/top_level.txt
+[2.393s] reading manifest file '../../build/ros2_assignment/ros2_assignment.egg-info/SOURCES.txt'
+[2.394s] writing manifest file '../../build/ros2_assignment/ros2_assignment.egg-info/SOURCES.txt'
+[2.394s] running build
+[2.395s] running build_py
+[2.395s] running install
+[2.408s] running install_lib
+[2.453s] running install_data
+[2.454s] running install_egg_info
+[2.500s] removing '/home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment-0.0.0-py3.12.egg-info' (and everything under it)
+[2.501s] Copying ../../build/ros2_assignment/ros2_assignment.egg-info to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages/ros2_assignment-0.0.0-py3.12.egg-info
+[2.502s] running install_scripts
+[2.783s] Installing param_reader script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.783s] Installing params_setter script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.783s] Installing pose_re_pub script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.784s] Installing twist_from_database script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.784s] Installing zero_twist script to /home/lakshitha/ros2_ws/install/ros2_assignment/lib/ros2_assignment
+[2.784s] writing list of installed files to '/home/lakshitha/ros2_ws/build/ros2_assignment/install.log'
+[2.837s] Invoked command in '/home/lakshitha/ros2_ws/src/ros2_assignment' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakshitha/ros2_ws/build/ros2_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakshitha/ros2_ws/install/ros2_assignment/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_assignment build --build-base /home/lakshitha/ros2_ws/build/ros2_assignment/build install --record /home/lakshitha/ros2_ws/build/ros2_assignment/install.log --single-version-externally-managed install_data

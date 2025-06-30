@@ -1,0 +1,37 @@
+[1.669s] Invoking command in '/home/lakshitha/ros2_ws/src/tests': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakshitha/ros2_ws/build/tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tests build --build-base /home/lakshitha/ros2_ws/build/tests/build install --record /home/lakshitha/ros2_ws/build/tests/install.log --single-version-externally-managed install_data
+[2.227s] running egg_info
+[2.228s] creating ../../build/tests/tests.egg-info
+[2.269s] writing ../../build/tests/tests.egg-info/PKG-INFO
+[2.270s] writing dependency_links to ../../build/tests/tests.egg-info/dependency_links.txt
+[2.270s] writing entry points to ../../build/tests/tests.egg-info/entry_points.txt
+[2.270s] writing requirements to ../../build/tests/tests.egg-info/requires.txt
+[2.271s] writing top-level names to ../../build/tests/tests.egg-info/top_level.txt
+[2.271s] writing manifest file '../../build/tests/tests.egg-info/SOURCES.txt'
+[2.358s] reading manifest file '../../build/tests/tests.egg-info/SOURCES.txt'
+[2.359s] writing manifest file '../../build/tests/tests.egg-info/SOURCES.txt'
+[2.360s] running build
+[2.360s] running build_py
+[2.360s] creating /home/lakshitha/ros2_ws/build/tests/build
+[2.361s] creating /home/lakshitha/ros2_ws/build/tests/build/lib
+[2.361s] creating /home/lakshitha/ros2_ws/build/tests/build/lib/tests
+[2.361s] copying tests/listener.py -> /home/lakshitha/ros2_ws/build/tests/build/lib/tests
+[2.361s] copying tests/chatter.py -> /home/lakshitha/ros2_ws/build/tests/build/lib/tests
+[2.361s] copying tests/__init__.py -> /home/lakshitha/ros2_ws/build/tests/build/lib/tests
+[2.362s] running install
+[2.374s] running install_lib
+[2.419s] creating /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests
+[2.420s] copying /home/lakshitha/ros2_ws/build/tests/build/lib/tests/listener.py -> /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests
+[2.420s] copying /home/lakshitha/ros2_ws/build/tests/build/lib/tests/chatter.py -> /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests
+[2.420s] copying /home/lakshitha/ros2_ws/build/tests/build/lib/tests/__init__.py -> /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests
+[2.421s] byte-compiling /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests/listener.py to listener.cpython-312.pyc
+[2.422s] byte-compiling /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests/chatter.py to chatter.cpython-312.pyc
+[2.423s] byte-compiling /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests/__init__.py to __init__.cpython-312.pyc
+[2.423s] running install_data
+[2.423s] copying package.xml -> /home/lakshitha/ros2_ws/install/tests/share/tests
+[2.423s] running install_egg_info
+[2.470s] Copying ../../build/tests/tests.egg-info to /home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages/tests-0.0.0-py3.12.egg-info
+[2.472s] running install_scripts
+[2.760s] Installing chatter.py script to /home/lakshitha/ros2_ws/install/tests/lib/tests
+[2.760s] Installing listener.py script to /home/lakshitha/ros2_ws/install/tests/lib/tests
+[2.760s] writing list of installed files to '/home/lakshitha/ros2_ws/build/tests/install.log'
+[2.819s] Invoked command in '/home/lakshitha/ros2_ws/src/tests' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lakshitha/ros2_ws/build/tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lakshitha/ros2_ws/install/tests/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tests build --build-base /home/lakshitha/ros2_ws/build/tests/build install --record /home/lakshitha/ros2_ws/build/tests/install.log --single-version-externally-managed install_data

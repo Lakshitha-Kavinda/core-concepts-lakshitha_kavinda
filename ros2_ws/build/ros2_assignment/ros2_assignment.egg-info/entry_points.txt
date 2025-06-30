@@ -1,0 +1,6 @@
+[console_scripts]
+param_reader = ros2_assignment.param_reader:main
+params_setter = ros2_assignment.params_setter:main
+pose_re_pub = ros2_assignment.pose_re_pub:main
+twist_from_database = ros2_assignment.twist_from_database:main
+zero_twist = ros2_assignment.zero_twist:main

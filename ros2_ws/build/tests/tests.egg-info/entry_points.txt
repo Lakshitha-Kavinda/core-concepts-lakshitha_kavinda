@@ -1,0 +1,3 @@
+[console_scripts]
+chatter.py = tests.chatter:main
+listener.py = tests.listener:main
